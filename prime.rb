@@ -11,4 +11,6 @@ def prime?(int)
   end
 end
 
-Benchmark.bm
+Benchmark.bm do |x|
+  x.report("My prime?") {prime?(363)}
+end
