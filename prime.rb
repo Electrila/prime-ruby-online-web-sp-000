@@ -12,5 +12,5 @@ def prime?(int)
 end
 
 Benchmark.bm do |x|
-  x.report("My prime?") {prime?(363)}
+  x.report("Prime? Benchmark") {prime?(363)}
 end
