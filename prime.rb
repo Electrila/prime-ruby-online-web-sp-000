@@ -1,3 +1,5 @@
+require 'benchmark'
+
 def prime?(int)
   if int <= 1
     return false
@@ -8,3 +10,5 @@ def prime?(int)
     true
   end
 end
+
+Benchmark.prime?(9)
