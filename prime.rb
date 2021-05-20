@@ -11,4 +11,4 @@ def prime?(int)
   end
 end
 
-Benchmark.prime?(9)
+Benchmark.bm
